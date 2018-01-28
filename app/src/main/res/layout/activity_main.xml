@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8800ff"
+    android:padding="10dp"
+    tools:context="com.example.mahadi.mycheckbox.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/what_do_you_want_to_by"
+        android:textColor="#dddddd"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:textAlignment="center"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/milk"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/milk"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/sugar"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/water"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:id="@+id/water"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/show"
+        android:id="@+id/show"/>
+
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#dddddd"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:padding="2dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
